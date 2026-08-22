@@ -9,3 +9,13 @@ A simple Express.js backend project for Week 2 learning.
 3. Create a `.env` file (copy from `.env.example`):
 4. Start the server:
 Or for development with auto-reload:
+
+## Routes
+
+- `GET /` — Welcome message
+- `GET /api/hello` — Hello endpoint
+
+## Dependencies
+
+- **express** — Web framework
+- **nodemon** (dev) — Auto-reload during development
